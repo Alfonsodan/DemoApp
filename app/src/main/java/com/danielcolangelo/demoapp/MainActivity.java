@@ -2,12 +2,12 @@ package com.danielcolangelo.demoapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
-    public void clickFunction(View view) {
-        
+    public void clickFunction() {
+        Log.i("Info", "Button Pressed");
     }
 
     @Override

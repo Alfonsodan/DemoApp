@@ -11,6 +11,11 @@ public class MainActivity extends AppCompatActivity {
         Log.i("Info", "Button Pressed");
     }
 
+    public void secondaryButton(View view) {
+        Log.i("Info", "Second button pressed.");
+
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
